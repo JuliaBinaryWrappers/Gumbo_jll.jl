@@ -1,113 +1,143 @@
 [[Gumbo]]
 arch = "aarch64"
-git-tree-sha1 = "a8d06f69e8400866b5f788dc02a5025f58dacd0e"
-libc = "glibc"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "bea39871e3f58fd4d98f9a4090ec0c1d3713d78bc9f5f3c4089f1c8425641543"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.aarch64-linux-gnu.tar.gz"
-[[Gumbo]]
-arch = "aarch64"
-git-tree-sha1 = "484b6874b36ec4dcfb602048490f7e7e4aa41fd9"
-libc = "musl"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "e64801803a032efab8c93e1f9a577dda8d2916b4db901c1ad0d027fe9851248d"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.aarch64-linux-musl.tar.gz"
-[[Gumbo]]
-arch = "armv7l"
-git-tree-sha1 = "bfaf657961cbdccad85deb82c81902cd0f420f70"
-libc = "glibc"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "f5cd6aa5831ad062b22688fd5aad0118469c03418e10468f12ff473615e23607"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.armv7l-linux-gnueabihf.tar.gz"
-[[Gumbo]]
-arch = "armv7l"
-git-tree-sha1 = "da0a545e83020a6d56d55815dccee34934c125fa"
-libc = "musl"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "13e30192dc30d2043629c432839a271e3d1512100165018c7aa01b6c43cfdab7"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.armv7l-linux-musleabihf.tar.gz"
-[[Gumbo]]
-arch = "i686"
-git-tree-sha1 = "146897e12d04cc15d9818c1d14e5bb980a6bb87b"
-libc = "glibc"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "2b0aaad167dda4a3a690fa1fa552908160de83cfe9e4f0fe5ed689bebfa72862"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.i686-linux-gnu.tar.gz"
-[[Gumbo]]
-arch = "i686"
-git-tree-sha1 = "2e66d774dddcce82a79bd490353a7845c64b1c02"
-libc = "musl"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "8646eae70afdc94da04cff2a1c47227b77644f276cd1faa40f5234ce21ab8eb2"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.i686-linux-musl.tar.gz"
-[[Gumbo]]
-arch = "i686"
-git-tree-sha1 = "1d7af93d3d532f05afe9624f9d8700517611eb0e"
-os = "windows"
-
-    [[Gumbo.download]]
-    sha256 = "95b5c53c3588cd6b72bad24985a02962eb90db1b6c7d51b88720e0211d2be414"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.i686-w64-mingw32.tar.gz"
-[[Gumbo]]
-arch = "powerpc64le"
-git-tree-sha1 = "f2ee665b5423cc6b0effcf0a8f5f00999a48eb87"
-libc = "glibc"
-os = "linux"
-
-    [[Gumbo.download]]
-    sha256 = "6b53cca1a0a22a9594eb9f2059aaf3a0f8079b85a97dd4039a2841afaee2713f"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.powerpc64le-linux-gnu.tar.gz"
-[[Gumbo]]
-arch = "x86_64"
-git-tree-sha1 = "69e59b18b8ec05d045b689aa5543bfed8786b8a5"
+git-tree-sha1 = "5fee3553325d17d336902bf6f1529b75a4987614"
 os = "macos"
 
     [[Gumbo.download]]
-    sha256 = "6f8eb2fe37d3ed84530b38534d7e038d33615f1fa58df8b37d570038f4c62c04"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.x86_64-apple-darwin14.tar.gz"
+    sha256 = "2b1cef9467f2ad70a5b4ae7eb5de2a9fd105922d5332e2600d76c5fe96436349"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.aarch64-apple-darwin.tar.gz"
 [[Gumbo]]
-arch = "x86_64"
-git-tree-sha1 = "6f61b22bbbd3e4627668d0b751ee88b57f724746"
+arch = "aarch64"
+git-tree-sha1 = "fbb0ced402c730717e9f6a0d28bc0cb315e0f5d7"
 libc = "glibc"
 os = "linux"
 
     [[Gumbo.download]]
-    sha256 = "20ed653f13f3b50fecc6136b16845b4446fa23dba0f3c10006db39e7f187c246"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "f2e8d26b9ef797c18f873b725ae09e794256f7fb36e36f81c0ba6dd7d70d062c"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.aarch64-linux-gnu.tar.gz"
 [[Gumbo]]
-arch = "x86_64"
-git-tree-sha1 = "ab92459695f60228625bb2a13a522e1923707b5d"
+arch = "aarch64"
+git-tree-sha1 = "ea93f3da49a8e11761d36ae99ff9b492a17e9dea"
 libc = "musl"
 os = "linux"
 
     [[Gumbo.download]]
-    sha256 = "aaf2d6be898c90d78d98d4a24935ea98af6889fb39373eb2f0a66b701d81fd7d"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.x86_64-linux-musl.tar.gz"
+    sha256 = "b6c3c7ba672b40ef33ab35b5a2e0efa2c8b555ed0c886951baaa22c41858a05d"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.aarch64-linux-musl.tar.gz"
 [[Gumbo]]
-arch = "x86_64"
-git-tree-sha1 = "1bedbe8dfc5f29fe5527869bbe05e6d9e58ad44c"
-os = "freebsd"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "90b1931e3fe7b2bc2df66685edc7f05d1a04acb9"
+libc = "glibc"
+os = "linux"
 
     [[Gumbo.download]]
-    sha256 = "8694170afe93e2eaa2d1026469119d6325a3fdbcdcc77424ddde241ffcd8f8ad"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.x86_64-unknown-freebsd11.1.tar.gz"
+    sha256 = "082780acc35ae41cfaf19e4385f9d694e5f1d6c9f0a52a1b4804dd39ad66241f"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.armv6l-linux-gnueabihf.tar.gz"
 [[Gumbo]]
-arch = "x86_64"
-git-tree-sha1 = "d80d7558e2ad6b2915b07733d964af5989e7fd20"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "786b6b078571d8e2dcee3c2ed64a0f15a9feec2e"
+libc = "musl"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "8d33503eff037de8a99c02b5dc908e8a5f4cd573893f3e3e7692404687a6bde0"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.armv6l-linux-musleabihf.tar.gz"
+[[Gumbo]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "b88bc415710b4d806fd588da8ba04b91a4e2d514"
+libc = "glibc"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "441f91869e0d56986fd56ebbc0f0aa48a615c0cc480fdda176a0732f260ca4cc"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.armv7l-linux-gnueabihf.tar.gz"
+[[Gumbo]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "8cbcc9222a555a0399ffae65eaeec99949c3e697"
+libc = "musl"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "97b6cfde20cd764ff0f54bf8cbba138b9b888be24ff52a606d6dc4c704ccd02f"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.armv7l-linux-musleabihf.tar.gz"
+[[Gumbo]]
+arch = "i686"
+git-tree-sha1 = "a91d2c848c04fd5c12902e698498aa68aa9dd1bc"
+libc = "glibc"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "313e1d69c0a408625273e792f836fdbee9992cf2b368d3f473b331e6ddacfbc2"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.i686-linux-gnu.tar.gz"
+[[Gumbo]]
+arch = "i686"
+git-tree-sha1 = "0333d5aff845c95bbde45e4f4f9c52c1d8349c19"
+libc = "musl"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "b58f67b413345a76d6712a8f8957ec9b8e2ccce13cf00e2f2d44d3cda0fe9731"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.i686-linux-musl.tar.gz"
+[[Gumbo]]
+arch = "i686"
+git-tree-sha1 = "f03e881530b104b09b11bbd6c5c94667aa2763e0"
 os = "windows"
 
     [[Gumbo.download]]
-    sha256 = "0513bcc67f2467c088ef8957ffc3e4fc6c174f7f7e66be9c0e8b8ef1b71a3ba0"
-    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.1+1/Gumbo.v0.10.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "2d1c4d963e7bf996c055879dfb705c7eabaede9cad0ab484a2f94cda5da783d4"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.i686-w64-mingw32.tar.gz"
+[[Gumbo]]
+arch = "powerpc64le"
+git-tree-sha1 = "fe58a813730b658e0f5a1e1aeadc20c20c3b19b1"
+libc = "glibc"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "31e6e563d5e6f0759eab1e8d2d6f193435a4231ca671390c7de14264f2120c43"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.powerpc64le-linux-gnu.tar.gz"
+[[Gumbo]]
+arch = "x86_64"
+git-tree-sha1 = "cac8e280af8113787ab7605cc082a8c1610a76d5"
+os = "macos"
+
+    [[Gumbo.download]]
+    sha256 = "830c0470c358e426f513c92907d31970cf2a165f6afb6299bf182c1404911bc8"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.x86_64-apple-darwin.tar.gz"
+[[Gumbo]]
+arch = "x86_64"
+git-tree-sha1 = "ac1f1270ab0df7a7d497730684560b50f0efb7ae"
+libc = "glibc"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "3bb536357851e4f7fbeb9dd54223f11a57a39c637094a86c8462a9acac50797f"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.x86_64-linux-gnu.tar.gz"
+[[Gumbo]]
+arch = "x86_64"
+git-tree-sha1 = "3e0c20a8d6f3f9b80ac5beebf2a3fb90e67f6b20"
+libc = "musl"
+os = "linux"
+
+    [[Gumbo.download]]
+    sha256 = "fa15d7584ea7dc31adf8ec6a4bce8d02713a3386e8c448c6cc6e18ef65137ed0"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.x86_64-linux-musl.tar.gz"
+[[Gumbo]]
+arch = "x86_64"
+git-tree-sha1 = "ef364715fff2145298c95d726cb4d8e35fd6f654"
+os = "freebsd"
+
+    [[Gumbo.download]]
+    sha256 = "a7d92d3388126b78d74d3ac9d8f5573a5771d906db6a6fb22da37e32d168af48"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.x86_64-unknown-freebsd.tar.gz"
+[[Gumbo]]
+arch = "x86_64"
+git-tree-sha1 = "c8080c7680d33a25d3e774ead8b6ea141c20f40f"
+os = "windows"
+
+    [[Gumbo.download]]
+    sha256 = "00258389035087672fffce40118fa1d362c543b68d474f6c62b758cfadc3260f"
+    url = "https://github.com/JuliaBinaryWrappers/Gumbo_jll.jl/releases/download/Gumbo-v0.10.2+0/Gumbo.v0.10.2.x86_64-w64-mingw32.tar.gz"
